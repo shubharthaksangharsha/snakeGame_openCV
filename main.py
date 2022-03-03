@@ -110,8 +110,8 @@ while True:
     if cv2.waitKey(1) == ord('r'):
         os.system('aplay startgame.wav &')
         game.gameOver = False
-    if cv2.waitKey(1) == ord('q'):
-        break
+    #if cv2.waitKey(1) == ord('q'):
+        #break
     
     
 
